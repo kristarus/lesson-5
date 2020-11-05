@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.menu {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.logo {
+  width: 5%;
+}
+
+.list {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5vh;
+  color: white;
+  padding: 0;
+}
+
+/* main-block */
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(./images/backround.png);
+  background-size: cover;
+}
+
+.big-logo {
+  display: flex;
+  margin-top: 25vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  width: 10%;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  display: flex;
+  width: 45%;
+  font-size: 5.4vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+}
+
+.line {
+  display: flex;
+  width: 7%;
+  height: 2px;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  background-color: white;
+}
+
+.text {
+  display: flex;
+  width: 35%;
+  font-size: 2.5vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+}
+
+.button-download {
+  display: flex;
+  justify-content: center;
+  width: 12%;
+  margin-left: 10vw;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 7%;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+.button-download:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* contats */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+  background-color: white;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+}
+
+.contacts-links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 17vw;
+}
+
+.icons {
+  display: flex;
+  width: 9%;
+}
+
+h3 {
+  font-size: 3.5vh;
+  width: 30%;
+  margin-bottom: 1vh;
+}
+
+.contact-text {
+  width: 70%;
+  font-size: 2.5vh;
+}
+
+.grey {
+  color: #86878b;
+}
